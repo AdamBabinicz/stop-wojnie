@@ -17,7 +17,7 @@ const Work = () => {
             return (
               <div className="box">
                 <div className="img">
-                  <img src={val.cover} alt="" />
+                  <img src={val.cover} alt="..." />
                 </div>
                 <div className="overlay">
                   <div className="text">
