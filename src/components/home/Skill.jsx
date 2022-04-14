@@ -59,7 +59,7 @@ const Skill = () => {
               {data.map((val) => {
                 return (
                   <>
-                    <h1>{val.title}</h1>
+                    <h2>{val.title}</h2>
                     <p>{val.para}</p>
                     <p>{val.para1}</p>
                     <button className="primary-btn" onClick={() => Toggle()}>
