@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 80%;
+  max-width: 85%;
   margin: auto;
 }
 
@@ -388,6 +388,7 @@ h3 {
   color: black;
   top: -30px;
   font-size: 18px;
+  /* font-family: "Caladea", serif; */
 }
 .progress h4:nth-child(2) {
   right: 0;
@@ -759,6 +760,9 @@ footer .box a p {
   /*------------ skill ----------*/
   .progress {
     max-width: 100%;
+  }
+  .progress h4 {
+    font-size: 15px;
   }
   .skill .content {
     flex-direction: column;
