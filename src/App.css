@@ -747,6 +747,9 @@ footer .box a p {
   .wrapper .container {
     max-width: 80%;
   }
+  .wrapper .box h2 {
+    font-size: 17px;
+  }
   /* WrapperOne start */
   .wrapperOne .grid1 {
     grid-template-columns: 1fr;
