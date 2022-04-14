@@ -1,43 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="Prawnicy mówią, że po nawoływaniach Putina do oczyszczenia narodu ze zdrajców należy oczekiwać większej ilości spraw o zdradę stanu."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="Od pierwszych dni wojny Prokuratura Generalna uprzedza, że za zdradę stanu (kara do lat 20), będzie uznawane jakiekolwiek wsparcie obcego państwa lub organizacji międzynarodowych, zagrażających bezpieczeństwu Rosji."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="– Ciocia w Moskwie mówi: “Gdyby moje dzieci były ciut starsze, a mają 2 i 3 lata, wysłałabym je na wojnę, bo Donbas był gnębiony – opowiada Dasza. – Ciocia mówi, że Putin jest super. Rozmawia ze mną słowami z telewizji. Naszych żołnierzy witają tam kwiatami, a ofiary cywilne ciocia porównała do spiłowania zgniłych gałęzi zdrowego pięknego drzewa."
+    />
+    <meta property="og:url" content="https://ofiary-putina.netlify.app" />
+    <meta
+      property="og:image"
+      content="https://ofiary-putina.netlify.app/14.jfif"
+    />
+    <meta property="fb:app_id" content="" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta
+      property="business:contact_data:street_address"
+      content="– Wiem, że kiedy znajdę się w innym kraju i powiem, skąd jestem, będę się wstydziła. Będę cały czas się tłumaczyła: „jestem z Rosji, ale… Nie głosowałam nigdy na Putina. Nie wybieraliśmy go, a on mówi w naszym imieniu”."
+    />
+    <meta
+      property="business:contact_data:locality"
+      content="W 2018 roku znów sfałszowane wybory Putina. Protesty pod hasłem “Nie jest naszym carem” zostały stłumione. A w 2020 roku Putin zmienia konstytucję po sfałszowanym referendum. Jego poprzednie kadencje zostały wyzerowane i w 2024 roku będzie mógł ponownie zostać prezydentem."
+    />
+    <meta
+      property="business:contact_data:region"
+      content="Podrabinek uważa, że wojna w Ukrainie jest pochodną tłumienia w Rosji wolności przez ostatnie 20 lat. I zwraca się do Zachodu: „Od 20 lat prosiliśmy Zachód, by nie wspierał dyktatury – nikt nas nie słyszał. Teraz w Rosji nie ma nikogo, kto mógłby was usłyszeć”."
+    />
+    <meta property="business:contact_data:postal_code" content="61000–61499" />
+    <meta
+      property="business:contact_data:country_name"
+      content="– Zachód od 20 lat (…) serdecznie witał dyktatora i jego zwolenników, którzy otwarcie uzurpowali sobie władzę w Rosji – uważa radziecki dysydenta Aleksander Podrabinek, który część życia spędził w łagrach Jakucji."
+    />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/BeataKempa_MEP/status/1509545208018522112"
+    />
+    <meta
+      name="twitter:title"
+      content="Jeden z popularnych teraz rosyjskich żartów brzmi tak: „Do jakiego obozu nas wiozą? (Albo w okrutniejszej, wersji: Czy to pana syn zginął w Ukrainie?) – Nie wiem, nie interesuję się polityką”."
+    />
+    <meta
+      name="twitter:description"
+      content="Wybory prezydenckie w Rosji były całkowicie sfałszowane. Nie było żadnej konkurencji – jeden bohater i kilku klaunów. Do tego całkowita kontrola mediów. Z punktu widzenia Rady Europy wybory rosyjskie nie odpowiadają żadnym standardom. "
+    />
+    <meta
+      name="twitter:image"
+      content="https://ofiary-putina.netlify.app/31.jpg"
+    />
+    <meta name="twitter:image:alt" content="" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caladea:wght@400;700&family=Freckle+Face&family=Moo+Lah+Lah&family=Nosifer&family=Pirata+One&family=Stick&family=Zilla+Slab+Highlight:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Świat protestuje przeciwko wojnie Putina z Ukrainą</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "„To jest nie do wytrzymania, nie można oddychać, nie można spać, wiedząc, że w Ukrainie, nasze wojska robią te okropieństwa ” – tłumaczy Orłow.",
+        "contentUrl": "https://pl-pl.facebook.com/AmbasadaUkrainywPolsce",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://ofiary-putina.netlify.app/3.jfif",
+        "uploadDate": "2022-04-14",
+        "description": "Prawnik Daniił Berman napisał, że pracownicy Komitetu Śledczego w Rosji dostali rozporządzenie, by przemielili szybko wszystkie sprawy karne natury gospodarczej, bo od kwietnia muszą mieć czas na karanie zdrajców."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://ofiary-putina.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "„Muszki”, czyli Rosjan nie popierających wojny w Ukrainie, Putin kazał wypluć „na panel”, na bruk.",
+        "url": "https://ofiary-putina.netlify.app",
+        "sameAs": [
+          "https://m.facebook.com/WirtualnaPolska/videos/wojna-na-ukrainie/288683973210839",
+          "https://mobile.twitter.com/nawschodzie2022",
+          "https://pl.wikipedia.org/wiki/Inwazja_Rosji_na_Ukrain%C4%99_(2022)",
+          "https://www.youtube.com/watch?v=q-1k9oYCB9c",
+          "https://pl.pinterest.com/pin/601371356505165247"
+        ]
+      }
+    </script>
   </body>
 </html>
