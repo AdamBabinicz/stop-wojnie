@@ -767,7 +767,7 @@ footer .box a p {
 
   /*------------ work ----------*/
   .work {
-    height: 340vh;
+    min-height: 340vh;
   }
 
   .work .content {
