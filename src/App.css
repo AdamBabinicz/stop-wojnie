@@ -840,7 +840,9 @@ footer .box a p {
   footer .grid1 {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  footer .socialIcon {
+    display: flex;
+  }
   /*------------ footer ----------*/
 }
 /*------------ pages ----------*/
